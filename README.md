@@ -1,4 +1,4 @@
-Basic aplication using Sanic framework:
+Basic application using Sanic framework:
 
 **Installation requiremnets:**
 pip install requirments.txt
@@ -7,10 +7,11 @@ pip install requirments.txt
 python app.py
 
 Note: Have created a simple postgresql server, so u can use the table in it. Have given the Database URL in the code
+columns in table = id,location,amount
 
 **Description:**
 
-Created the application to do basic Crud operation for sales per location data using get,post delete methods.
+Created the application to do basic CRUD operation for sales per location data using get,post delete methods.
 After running the application we can access the following url,
 
 get: http://localhost:8000/sales
